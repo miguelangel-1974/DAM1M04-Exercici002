@@ -1,11 +1,36 @@
 .barra-fixed {
-    position: fixed; 
-    top: 0; 
+    position: fixed;
+    top: 0; left: 0;
     width: 100%;
+    text-align: center;
 }
 
-.peu-pagina {
-    position: fixed;
-    bottom: 0;
-    width: 100;
+.contenidor {
+    max-width: 1100px;
+    margin: auto;
+    margin-top: 70px;
+    padding: 12px;
+}
+
+.caixa {
+    height: 200px;
+    margin: 16px 0;
+    background-color: #e0e0e0;
+    border: 1px solid #999;
+    border-radius: 6px;
+}
+
+.sticky-separator {
+    position: sticky;
+    height: 25px;
+    line-height: 25px;
+    padding: 0 10px;
+    font-weight: bold;
+    border-radius: 4px;
+    z-index: 5;
+}
+
+.seccio {
+    padding-block: 8px 16px;
+    border-bottom: 1px dashed #ccc;
 }
