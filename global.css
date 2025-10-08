@@ -1,8 +1,11 @@
 .barra-fixed {
     position: fixed;
+    height: 35px;
+    line-height: 35px;
     top: 0; left: 0;
     width: 100%;
     text-align: center;
+    background-color: rgb(231, 132, 218);
 }
 
 .contenidor {
@@ -18,19 +21,40 @@
     background-color: #e0e0e0;
     border: 1px solid #999;
     border-radius: 6px;
-}
 
-.sticky-separator {
-    position: sticky;
-    height: 25px;
-    line-height: 25px;
-    padding: 0 10px;
-    font-weight: bold;
-    border-radius: 4px;
-    z-index: 5;
 }
 
 .seccio {
-    padding-block: 8px 16px;
     border-bottom: 1px dashed #ccc;
+}
+
+.demo {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: white;
+    padding: 10px;
+    margin: 14px 0 28px;
+}
+
+.item {
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #00000022;
+    background: #e3f2fd;
+}
+
+.flex-row {
+    display: flex;
+    gap: 10px;
+}
+
+.pie {
+    background-color: aqua;
+    font-weight: bold;
+    text-align: center;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 7px;
 }
